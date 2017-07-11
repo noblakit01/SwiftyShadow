@@ -10,6 +10,7 @@ import UIKit
 
 class SwiftyInnerShadowLayer: CALayer {
 
+    var shadowMode = SwiftyShadowMode.all
     override init() {
         super.init()
         initShadow()

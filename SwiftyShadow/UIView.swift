@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIView {
-    func createInnerShadow(color: UIColor, radius: CGFloat, shadowPath: SwiftyShadowPath = SwiftyShadowPath.all) {
+    func createInnerShadow(color: UIColor, radius: CGFloat, shadowPath: SwiftyShadowMode = SwiftyShadowMode.all) {
         let shadowView = UIView(frame: self.bounds)
         shadowView.backgroundColor = UIColor.clear
         

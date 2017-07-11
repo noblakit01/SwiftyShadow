@@ -8,14 +8,14 @@
 
 import Foundation
 
-enum SwiftyShadowPath {
+enum SwiftyShadowMode {
     case left
     case right
     case top
     case bottom
     case all
     
-    var paths: [SwiftyShadowPath] {
+    var paths: [SwiftyShadowMode] {
         switch self {
         case .all:
             return [.left, .right, .top, .bottom]
