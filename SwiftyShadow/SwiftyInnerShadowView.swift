@@ -20,7 +20,7 @@ class SwiftyInnerShadowView: UIView {
     
     override var frame: CGRect {
         didSet {
-            shadowLayer.frame = frame
+            shadowLayer.frame = bounds
         }
     }
     
