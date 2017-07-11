@@ -27,12 +27,42 @@ class SwiftyInnerShadowLayer: CALayer {
         initShadow()
     }
     
+    override var shadowOffset: CGSize {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    override var shadowOpacity: Float {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    override var shadowRadius: CGFloat {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    override var shadowColor: CGColor? {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
     func initShadow() {
         masksToBounds = true
         needsDisplayOnBoundsChange = true
         shouldRasterize = true
         
         fillMode = kCAFillRuleEvenOdd
+    }
+    
+    override var frame: CGRect {
+        didSet {
+            setNeedsLayout()
+        }
     }
     
     override func layoutSublayers() {

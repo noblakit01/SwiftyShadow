@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var testView: SwiftyInnerShadowView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        testView.shadowLayer.shadowRadius = 5
+        testView.shadowLayer.shadowColor = UIColor.red.cgColor
+        testView.shadowLayer.shadowOpacity = 0.8
     }
 
     override func didReceiveMemoryWarning() {

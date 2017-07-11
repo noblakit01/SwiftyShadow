@@ -15,6 +15,7 @@
 		0FE23E791F14DA4400DEA7BB /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE23E781F14DA4400DEA7BB /* UIView.swift */; };
 		0FE23E7B1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE23E7A1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift */; };
 		0FE23E7D1F14E6E900DEA7BB /* SwiftyShadowPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE23E7C1F14E6E900DEA7BB /* SwiftyShadowPath.swift */; };
+		0FE23E7F1F14EF3C00DEA7BB /* SwiftyInnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE23E7E1F14EF3C00DEA7BB /* SwiftyInnerShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0FE23E781F14DA4400DEA7BB /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../SwiftyShadow/UIView.swift; sourceTree = "<group>"; };
 		0FE23E7A1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyInnerShadowLayer.swift; path = ../SwiftyShadow/SwiftyInnerShadowLayer.swift; sourceTree = "<group>"; };
 		0FE23E7C1F14E6E900DEA7BB /* SwiftyShadowPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyShadowPath.swift; path = ../SwiftyShadow/SwiftyShadowPath.swift; sourceTree = "<group>"; };
+		0FE23E7E1F14EF3C00DEA7BB /* SwiftyInnerShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyInnerShadowView.swift; path = ../SwiftyShadow/SwiftyInnerShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				0FE23E781F14DA4400DEA7BB /* UIView.swift */,
 				0FE23E7A1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift */,
 				0FE23E7C1F14E6E900DEA7BB /* SwiftyShadowPath.swift */,
+				0FE23E7E1F14EF3C00DEA7BB /* SwiftyInnerShadowView.swift */,
 			);
 			name = SwiftyShadow;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				0FE23E681F14D97100DEA7BB /* ViewController.swift in Sources */,
 				0FE23E791F14DA4400DEA7BB /* UIView.swift in Sources */,
 				0FE23E7D1F14E6E900DEA7BB /* SwiftyShadowPath.swift in Sources */,
+				0FE23E7F1F14EF3C00DEA7BB /* SwiftyInnerShadowView.swift in Sources */,
 				0FE23E661F14D97100DEA7BB /* AppDelegate.swift in Sources */,
 				0FE23E7B1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift in Sources */,
 			);
