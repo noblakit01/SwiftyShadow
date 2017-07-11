@@ -1,9 +1,8 @@
 //
 //  UIView.swift
-//  iKidz
 //
 //  Created by luan on 7/5/17.
-//  Copyright © 2017 Sua Le. All rights reserved.
+//  Copyright © 2017 Luan Tran. All rights reserved.
 //
 
 import UIKit
