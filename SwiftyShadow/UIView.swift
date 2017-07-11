@@ -7,25 +7,8 @@
 
 import UIKit
 
-enum ShadowPath {
-    case left
-    case right
-    case top
-    case bottom
-    case all
-    
-    var paths: [ShadowPath] {
-        switch self {
-        case .all:
-            return [.left, .right, .top, .bottom]
-        default:
-            return [self]
-        }
-    }
-}
-
 extension UIView {
-    func createInnerShadow(color: UIColor, radius: CGFloat, shadowPath: ShadowPath = ShadowPath.all) {
+    func createInnerShadow(color: UIColor, radius: CGFloat, shadowPath: SwiftyShadowPath = SwiftyShadowPath.all) {
         let shadowView = UIView(frame: self.bounds)
         shadowView.backgroundColor = UIColor.clear
         

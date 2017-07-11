@@ -1,5 +1,5 @@
 //
-//  SwiftyShadowLayer.swift
+//  SwiftyInnerShadowLayer.swift
 //  SwiftyShadowExample
 //
 //  Created by luan on 7/11/17.
