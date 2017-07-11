@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwiftyInnerShadowLayer: CALayer {
+class SwiftyInnerShadowLayer: CAShapeLayer {
 
     var shadowModes: [SwiftyShadowMode] = [.left, .right, .top, .bottom]
     
@@ -56,7 +56,7 @@ class SwiftyInnerShadowLayer: CALayer {
         needsDisplayOnBoundsChange = true
         shouldRasterize = true
         
-        fillMode = kCAFillRuleEvenOdd
+        fillRule = kCAFillRuleEvenOdd
     }
     
     override var frame: CGRect {
@@ -89,6 +89,6 @@ class SwiftyInnerShadowLayer: CALayer {
         path.addPath(bezier.cgPath)
         path.closeSubpath()
         
-        shadowPath = path
+        self.path = path
     }
 }

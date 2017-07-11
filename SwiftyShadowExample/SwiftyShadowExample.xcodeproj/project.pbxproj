@@ -77,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				0FE23E781F14DA4400DEA7BB /* UIView.swift */,
-				0FE23E7A1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift */,
 				0FE23E7C1F14E6E900DEA7BB /* SwiftyShadowPath.swift */,
+				0FE23E7A1F14E46300DEA7BB /* SwiftyInnerShadowLayer.swift */,
 				0FE23E7E1F14EF3C00DEA7BB /* SwiftyInnerShadowView.swift */,
 			);
 			name = SwiftyShadow;

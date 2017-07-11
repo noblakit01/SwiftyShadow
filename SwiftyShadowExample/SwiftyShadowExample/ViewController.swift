@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         testView.shadowLayer.shadowRadius = 5
         testView.shadowLayer.shadowColor = UIColor.red.cgColor
         testView.shadowLayer.shadowOpacity = 0.8
+        testView.shadowLayer.shadowOffset = CGSize.zero
     }
 
     override func didReceiveMemoryWarning() {
