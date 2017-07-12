@@ -8,44 +8,37 @@
 
 import UIKit
 
-class SwiftyInnerShadowLayer: CAShapeLayer {
-
-    var shadowModes: [SwiftyShadowMode] = [.left, .right, .top, .bottom]
-    
-    convenience init(mode: [SwiftyShadowMode]) {
-        self.init()
-        shadowModes = mode
-    }
+public class SwiftyInnerShadowLayer: CAShapeLayer {
     
     override init() {
         super.init()
         initShadow()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initShadow()
     }
     
-    override var shadowOffset: CGSize {
+    override public var shadowOffset: CGSize {
         didSet {
             setNeedsLayout()
         }
     }
     
-    override var shadowOpacity: Float {
+    override public var shadowOpacity: Float {
         didSet {
             setNeedsLayout()
         }
     }
     
-    override var shadowRadius: CGFloat {
+    override public var shadowRadius: CGFloat {
         didSet {
             setNeedsLayout()
         }
     }
     
-    override var shadowColor: CGColor? {
+    override public var shadowColor: CGColor? {
         didSet {
             setNeedsLayout()
         }
@@ -57,21 +50,23 @@ class SwiftyInnerShadowLayer: CAShapeLayer {
         shouldRasterize = true
         
         fillRule = kCAFillRuleEvenOdd
+        borderColor = UIColor.clear.cgColor
     }
     
-    override var frame: CGRect {
+    override public var frame: CGRect {
         didSet {
             setNeedsLayout()
         }
     }
     
-    override func layoutSublayers() {
+    override public func layoutSublayers() {
         super.layoutSublayers()
         
-        let top = shadowModes.contains(.top) ? shadowRadius : 0
-        let bottom = shadowModes.contains(.bottom) ? shadowRadius : 0
-        let left = shadowModes.contains(.left) ? shadowRadius : 0
-        let right = shadowModes.contains(.right) ? shadowRadius : 0
+        
+        let top = shadowRadius - shadowOffset.height
+        let bottom = shadowRadius + shadowOffset.height
+        let left = shadowRadius - shadowOffset.width
+        let right = shadowRadius + shadowOffset.width
         let shadowRect = CGRect(x: bounds.origin.x - left,
                                 y: bounds.origin.y - top,
                                 width: bounds.width + left + right,

@@ -8,19 +8,26 @@
 
 import UIKit
 
-class SwiftyInnerShadowView: UIView {
+open class SwiftyInnerShadowView: UIView {
 
-    var shadowLayer = SwiftyInnerShadowLayer()
+    open var shadowLayer = SwiftyInnerShadowLayer()
 
-    override var bounds: CGRect {
+    override open var bounds: CGRect {
         didSet {
             shadowLayer.frame = bounds
         }
     }
     
-    override var frame: CGRect {
+    override open var frame: CGRect {
         didSet {
             shadowLayer.frame = bounds
+        }
+    }
+    
+    open var cornerRadius: CGFloat = 0 {
+        didSet {
+            layer.cornerRadius = cornerRadius
+            shadowLayer.cornerRadius = cornerRadius
         }
     }
     
@@ -29,7 +36,7 @@ class SwiftyInnerShadowView: UIView {
         initShadowLayer()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initShadowLayer()
     }
