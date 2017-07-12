@@ -64,10 +64,11 @@ then make an outlet
 
 - inner shadow properties
 ```
-testView.shadowLayer.shadowRadius = 5
+testView.shadowLayer.shadowRadius = 4
 testView.shadowLayer.shadowColor = UIColor.red.cgColor
 testView.shadowLayer.shadowOpacity = 0.8
 testView.shadowLayer.shadowOffset = CGSize.zero
+testView.cornerRadius = 16
 ```
 
 ## License
