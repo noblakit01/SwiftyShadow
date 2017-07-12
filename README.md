@@ -42,5 +42,33 @@ $ pod install
 
 ## Usage
 
+### Inner Shadow in View
+Use `SwiftyInnerShadowView` class as UIView to make this View has inner shadow.
+
+- Use Storyboard
+
+Set SwiftyInnerShadowView as UIView Class in the storyboard:
+<table>
+  <tr>
+    <th>
+      <img src="Tutorial/storyboard.png" width="220"/>
+    </th>
+  </tr>
+</table>
+
+then make an outlet
+```
+@IBOutlet weak var testView: SwiftyInnerShadowView!
+```
+
+
+- inner shadow properties
+```
+testView.shadowLayer.shadowRadius = 5
+testView.shadowLayer.shadowColor = UIColor.red.cgColor
+testView.shadowLayer.shadowOpacity = 0.8
+testView.shadowLayer.shadowOffset = CGSize.zero
+```
+
 ## License
 [MIT](http://thi.mit-license.org/)
