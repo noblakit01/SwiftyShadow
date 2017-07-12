@@ -23,10 +23,20 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-N1-b1S" customClass="SwiftyInnerShadowView" customModule="SwiftyShadowExample" customModuleProvider="target">
                                 <rect key="frame" x="67.5" y="269" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftyShadow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYg-3A-pB8">
+                                        <rect key="frame" x="74.5" y="50" width="91" height="28"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                        <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.14117647059999999" green="0.62352941179999999" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="81u-Gj-XHt"/>
+                                    <constraint firstItem="ZYg-3A-pB8" firstAttribute="centerY" secondItem="pKp-N1-b1S" secondAttribute="centerY" id="9wY-ts-FsX"/>
                                     <constraint firstAttribute="width" constant="240" id="Cvc-AC-s6B"/>
+                                    <constraint firstItem="ZYg-3A-pB8" firstAttribute="centerX" secondItem="pKp-N1-b1S" secondAttribute="centerX" id="SYf-O1-hV2"/>
                                 </constraints>
                             </view>
                         </subviews>
