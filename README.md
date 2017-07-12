@@ -3,6 +3,14 @@ Helper Libraries to generate wonderful shadow in Swift iOS.
 
 ## Screenshots
 
+<table>
+  <tr>
+    <th>
+      <img src="Screenshot/screenshot1.png" width="220"/>
+    </th>
+  </tr>
+</table>
+
 ## Requirements
 
 * iOS 8.0+
