@@ -15,6 +15,10 @@ public class SwiftyInnerShadowLayer: CAShapeLayer {
         initShadow()
     }
     
+    override public init(layer: Any) {
+        super.init(layer: layer)
+    }
+    
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initShadow()
