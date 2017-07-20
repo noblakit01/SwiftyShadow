@@ -16,6 +16,16 @@
 		OBJ_24 /* SwiftyInnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftyInnerShadowView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0F826A4C1F2116F40088917B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_18;
+			remoteInfo = SwiftyShadow;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0F826A3A1F2112CE0088917B /* SwiftyShadowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyShadowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F826A3C1F2112CE0088917B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +125,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0F826A4D1F2116F40088917B /* PBXTargetDependency */,
 			);
 			name = SwiftyShadowDemo;
 			productName = SwiftyShadowDemo;
@@ -204,6 +215,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F826A4D1F2116F40088917B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_18 /* SwiftyShadow */;
+			targetProxy = 0F826A4C1F2116F40088917B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0F826A401F2112CE0088917B /* Main.storyboard */ = {
@@ -417,6 +436,7 @@
 				0F826A4A1F2112CE0088917B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		OBJ_19 /* Build configuration list for PBXNativeTarget "SwiftyShadow" */ = {
 			isa = XCConfigurationList;
