@@ -28,7 +28,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'SwiftyShadow', '~> 1.2'
+pod 'SwiftyShadow', '~> 1.3'
 ```
 
 Then, run the following command:
@@ -38,7 +38,7 @@ $ pod install
 ```
 
 ### Manually
-- Drag and drop `SwiftyShadow` folder into your project.
+- Drag and drop `Sources` folder into your project.
 
 ## Usage
 
