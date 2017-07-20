@@ -1,17 +1,19 @@
 //
 //  ViewController.swift
-//  SwiftyShadowExample
+//  SwiftyShadowDemo
 //
-//  Created by luan on 7/11/17.
-//  Copyright © 2017 luantran. All rights reserved.
+//  Created by luan on 7/20/17.
+//
 //
 
 import UIKit
+import SwiftyShadow
+
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var testView: SwiftyInnerShadowView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,12 +23,6 @@ class ViewController: UIViewController {
         testView.shadowLayer.shadowOffset = CGSize.zero
         testView.cornerRadius = 120
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 

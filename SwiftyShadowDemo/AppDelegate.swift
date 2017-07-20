@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SwiftyShadowExample
+//  SwiftyShadowDemo
 //
-//  Created by luan on 7/11/17.
-//  Copyright © 2017 luantran. All rights reserved.
+//  Created by luan on 7/20/17.
+//
 //
 
 import UIKit
