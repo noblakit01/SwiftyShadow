@@ -13,6 +13,7 @@ import SwiftyShadow
 class ViewController: UIViewController {
     
     @IBOutlet weak var testView: SwiftyInnerShadowView!
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,12 @@ class ViewController: UIViewController {
         testView.shadowLayer.shadowOpacity = 0.8
         testView.shadowLayer.shadowOffset = CGSize.zero
         testView.cornerRadius = 120
+        
+        imageView.layer.cornerRadius = 120
+        imageView.layer.shadowRadius = 2
+        imageView.layer.shadowOpacity = 0.4
+        imageView.layer.shadowColor = UIColor.gray.cgColor
+        imageView.layer.shadowOffset = CGSize.zero
     }
     
 }
