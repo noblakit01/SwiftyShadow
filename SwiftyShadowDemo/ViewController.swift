@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         imageView.layer.shadowOpacity = 0.4
         imageView.layer.shadowColor = UIColor.gray.cgColor
         imageView.layer.shadowOffset = CGSize.zero
+        imageView.generateOuterShadow()
     }
     
 }
