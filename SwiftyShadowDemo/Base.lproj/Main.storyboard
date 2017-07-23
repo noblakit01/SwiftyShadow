@@ -39,6 +39,10 @@
                                     <constraint firstItem="ZYg-3A-pB8" firstAttribute="centerX" secondItem="pKp-N1-b1S" secondAttribute="centerX" id="SYf-O1-hV2"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-xj-7sc">
+                                <rect key="frame" x="67" y="292" width="240" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar2" translatesAutoresizingMaskIntoConstraints="NO" id="kJi-5N-m9t">
                                 <rect key="frame" x="67" y="292" width="240" height="240"/>
                                 <constraints>
@@ -49,14 +53,19 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Eaf-xj-7sc" firstAttribute="bottom" secondItem="kJi-5N-m9t" secondAttribute="bottom" id="1HN-lD-VMb"/>
                             <constraint firstItem="pKp-N1-b1S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ayd-0g-SVf"/>
+                            <constraint firstItem="Eaf-xj-7sc" firstAttribute="trailing" secondItem="kJi-5N-m9t" secondAttribute="trailing" id="HAu-2m-jdE"/>
+                            <constraint firstItem="Eaf-xj-7sc" firstAttribute="leading" secondItem="kJi-5N-m9t" secondAttribute="leading" id="SBk-W7-LTA"/>
                             <constraint firstItem="kJi-5N-m9t" firstAttribute="top" secondItem="pKp-N1-b1S" secondAttribute="bottom" constant="32" id="ah0-A9-7Uv"/>
                             <constraint firstItem="kJi-5N-m9t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c4s-Ww-ogd"/>
+                            <constraint firstItem="Eaf-xj-7sc" firstAttribute="top" secondItem="kJi-5N-m9t" secondAttribute="top" id="pCt-gZ-l6x"/>
                             <constraint firstItem="pKp-N1-b1S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="zc9-FN-rPO"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="kJi-5N-m9t" id="lr7-8k-eJI"/>
+                        <outlet property="shadowView" destination="Eaf-xj-7sc" id="VVj-Zs-1Pf"/>
                         <outlet property="testView" destination="pKp-N1-b1S" id="inp-Fj-1dI"/>
                     </connections>
                 </viewController>
