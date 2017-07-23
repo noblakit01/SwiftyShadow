@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4640E01F24F70A00B1FDFA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4640DF1F24F70A00B1FDFA /* UIView.swift */; };
 		0F826A3D1F2112CE0088917B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F826A3C1F2112CE0088917B /* AppDelegate.swift */; };
 		0F826A3F1F2112CE0088917B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F826A3E1F2112CE0088917B /* ViewController.swift */; };
 		0F826A421F2112CE0088917B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F826A401F2112CE0088917B /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4640DF1F24F70A00B1FDFA /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0F826A3A1F2112CE0088917B /* SwiftyShadowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyShadowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F826A3C1F2112CE0088917B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F826A3E1F2112CE0088917B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				OBJ_8 /* SwiftyInnerShadowLayer.swift */,
 				OBJ_9 /* SwiftyInnerShadowView.swift */,
+				0F4640DF1F24F70A00B1FDFA /* UIView.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -210,6 +213,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_23 /* SwiftyInnerShadowLayer.swift in Sources */,
+				0F4640E01F24F70A00B1FDFA /* UIView.swift in Sources */,
 				OBJ_24 /* SwiftyInnerShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

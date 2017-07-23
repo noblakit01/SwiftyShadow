@@ -63,12 +63,28 @@ then make an outlet
 
 
 - inner shadow properties
+Set inner shadow propeties through `shadowLayer` of `SwiftyInnerShadowView`
 ```
 testView.shadowLayer.shadowRadius = 4
 testView.shadowLayer.shadowColor = UIColor.red.cgColor
 testView.shadowLayer.shadowOpacity = 0.8
 testView.shadowLayer.shadowOffset = CGSize.zero
 testView.cornerRadius = 120
+```
+
+### Outer Shadow in View
+You can set up outer shadow in view with default properties in UIView
+```
+imageView.layer.cornerRadius = 120
+imageView.layer.shadowRadius = 20
+imageView.layer.shadowOpacity = 0.8
+imageView.layer.shadowColor = UIColor.black.cgColor
+imageView.layer.shadowOffset = CGSize.zero
+```
+
+but shadow doesn't work if view has `clipsToBounds = true`, so just call `generateOuterShadow` function
+```
+imageView.generateOuterShadow()
 ```
 
 ## License
