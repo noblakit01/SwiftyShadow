@@ -28,7 +28,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'SwiftyShadow', '~> 1.3'
+pod 'SwiftyShadow', '~> 1.4.1'
 ```
 
 Then, run the following command:
