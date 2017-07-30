@@ -50,23 +50,19 @@ public class SwiftyInnerShadowLayer: CAShapeLayer {
     
     func initShadow() {
         masksToBounds = true
-        needsDisplayOnBoundsChange = true
         shouldRasterize = true
         
         fillRule = kCAFillRuleEvenOdd
         borderColor = UIColor.clear.cgColor
     }
     
-    override public var frame: CGRect {
-        didSet {
-            setNeedsLayout()
-        }
-    }
-    
     override public func layoutSublayers() {
         super.layoutSublayers()
         
-        
+        generateShadowPath()
+    }
+    
+    func generateShadowPath() {
         let top = shadowRadius - shadowOffset.height
         let bottom = shadowRadius + shadowOffset.height
         let left = shadowRadius - shadowOffset.width
