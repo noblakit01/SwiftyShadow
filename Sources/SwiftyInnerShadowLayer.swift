@@ -73,17 +73,18 @@ public class SwiftyInnerShadowLayer: CAShapeLayer {
                                 height: bounds.height + top + bottom)
         
         let path = CGMutablePath()
-        path.addRect(shadowRect)
+        let delta: CGFloat = 1
+        let rect = CGRect(x: bounds.origin.x - delta, y: bounds.origin.y - delta, width: bounds.width + delta * 2, height: bounds.height + delta * 2)
         let bezier: UIBezierPath = {
             if cornerRadius > 0 {
-                return UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
+                return UIBezierPath(roundedRect: rect, cornerRadius: cornerRadius)
             } else {
-                return UIBezierPath(rect: bounds)
+                return UIBezierPath(rect: rect)
             }
         }()
         path.addPath(bezier.cgPath)
+        path.addRect(shadowRect)
         path.closeSubpath()
-        
         self.path = path
     }
 }
