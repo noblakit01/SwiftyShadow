@@ -87,5 +87,7 @@ but shadow doesn't work if view has `clipsToBounds = true`, so just call `genera
 imageView.generateOuterShadow()
 ```
 
+## TODO
+[Todo](https://github.com/noblakit01/SwiftyShadow/blob/master/TODO.md)
 ## License
 [MIT](http://thi.mit-license.org/)
