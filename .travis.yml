@@ -5,4 +5,3 @@ script:
 - xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphonesimulator
 - xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadowDemo -sdk iphonesimulator
 - xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphoneos
-- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadowDemo -sdk iphoneos
