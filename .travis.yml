@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode8.3
 
 script:
-- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphonesimulator9.0
-- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadowDemo -sdk iphonesimulator9.0
-- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphoneos9.0
-- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadowDemo -sdk iphoneos9.0
+- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphonesimulator
+- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadowDemo -sdk iphonesimulator
+- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphoneos
+- xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadowDemo -sdk iphoneos
