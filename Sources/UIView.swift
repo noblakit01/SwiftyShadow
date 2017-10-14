@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIView {
+    
     open func generateOuterShadow() {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -30,4 +31,5 @@ extension UIView {
         ]
         superview?.addConstraints(constraints)
     }
+    
 }
