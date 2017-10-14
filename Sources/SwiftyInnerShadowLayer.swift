@@ -87,4 +87,5 @@ public class SwiftyInnerShadowLayer: CAShapeLayer {
         path.closeSubpath()
         self.path = path
     }
+    
 }
