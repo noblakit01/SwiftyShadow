@@ -1,4 +1,7 @@
 # SwiftyShadow
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f6a7a8d0d6294d82948f9d16a8b14bed)](https://www.codacy.com/app/noblakit01/SwiftyShadow?utm_source=github.com&utm_medium=referral&utm_content=noblakit01/SwiftyShadow&utm_campaign=badger)
+
 Helper Libraries to generate wonderful shadow in Swift iOS.
 
 ## Screenshots
