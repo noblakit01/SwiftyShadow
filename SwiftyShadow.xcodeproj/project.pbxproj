@@ -38,7 +38,7 @@
 		0F826A481F2112CE0088917B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_12 /* Screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshot; sourceTree = SOURCE_ROOT; };
 		OBJ_15 /* Tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tutorial; sourceTree = SOURCE_ROOT; };
-		OBJ_17 /* SwiftyShadow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyShadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_17 /* SwiftyShadow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyShadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* SwiftyInnerShadowLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyInnerShadowLayer.swift; sourceTree = "<group>"; };
 		OBJ_9 /* SwiftyInnerShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyInnerShadowView.swift; sourceTree = "<group>"; };
@@ -163,6 +163,9 @@
 					0F826A391F2112CE0088917B = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
+					};
+					OBJ_18 = {
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -361,6 +364,8 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SwiftyShadow;
 			};
 			name = Debug;
@@ -382,6 +387,8 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SwiftyShadow;
 			};
 			name = Release;
