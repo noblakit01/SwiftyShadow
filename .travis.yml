@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode9.0
+osx_image: xcode9
 
 script:
 - xcodebuild build -project SwiftyShadow.xcodeproj -scheme SwiftyShadow -sdk iphonesimulator
