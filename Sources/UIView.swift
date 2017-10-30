@@ -19,7 +19,7 @@ extension UIView {
         view.layer.shadowColor = layer.shadowColor
         view.layer.shadowOffset = CGSize.zero
         view.clipsToBounds = false
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = .white
         
         superview?.insertSubview(view, belowSubview: self)
         
@@ -41,7 +41,7 @@ extension UIView {
         view.shadowLayer.shadowColor = layer.shadowColor
         view.shadowLayer.shadowOffset = CGSize.zero
         view.clipsToBounds = false
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = .clear
         
         superview?.insertSubview(view, aboveSubview: self)
         
