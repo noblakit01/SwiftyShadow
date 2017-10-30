@@ -32,4 +32,7 @@ extension UIView {
         superview?.addConstraints(constraints)
     }
     
+    open func generateInnerShadow() {
+    }
+    
 }
