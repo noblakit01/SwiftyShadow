@@ -153,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="606" y="68"/>
         </scene>
-        <!--View Controller-->
+        <!--Elliptical Shadow View Controller-->
         <scene sceneID="yBk-MP-NVS">
             <objects>
-                <viewController id="fkl-fu-Y90" customClass="ViewController" customModule="SwiftyShadowDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fkl-fu-Y90" customClass="EllipticalShadowViewController" customModule="SwiftyShadowDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QPH-sa-52M"/>
                         <viewControllerLayoutGuide type="bottom" id="Syb-eG-1XD"/>

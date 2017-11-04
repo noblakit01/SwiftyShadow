@@ -70,7 +70,7 @@ extension UIView {
         
         view.layer.shadowPath = path.cgPath
         
-        superview?.insertSubview(view, aboveSubview: self)
+        superview?.insertSubview(view, belowSubview: self)
         
         let constraints = [
             NSLayoutConstraint(item: view, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1.0, constant: 0.0),
