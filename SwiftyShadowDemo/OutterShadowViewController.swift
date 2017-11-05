@@ -14,7 +14,7 @@ class OutterShadowViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        imageView.layer.cornerRadius = 60
+        imageView.layer.cornerRadius = 120
         imageView.layer.shadowRadius = 20
         imageView.layer.shadowOpacity = 0.8
         imageView.layer.shadowColor = UIColor.black.cgColor

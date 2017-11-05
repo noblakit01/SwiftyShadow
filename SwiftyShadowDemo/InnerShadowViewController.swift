@@ -20,9 +20,9 @@ class InnerShadowViewController: UIViewController {
         testView.shadowLayer.shadowColor = UIColor.red.cgColor
         testView.shadowLayer.shadowOpacity = 0.8
         testView.shadowLayer.shadowOffset = CGSize.zero
-        testView.cornerRadius = 60
+        testView.cornerRadius = 120
         
-        imageInnerView.layer.cornerRadius = 60
+        imageInnerView.layer.cornerRadius = 120
         imageInnerView.layer.shadowRadius = 20
         imageInnerView.layer.shadowOpacity = 0.8
         imageInnerView.layer.shadowColor = UIColor.black.cgColor
@@ -30,4 +30,5 @@ class InnerShadowViewController: UIViewController {
         
         imageInnerView.generateInnerShadow()
     }
+    
 }

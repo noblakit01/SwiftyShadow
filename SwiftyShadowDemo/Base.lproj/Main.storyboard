@@ -77,17 +77,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar2" translatesAutoresizingMaskIntoConstraints="NO" id="Nj5-FF-8hX">
-                                <rect key="frame" x="127" y="208" width="120" height="120"/>
+                                <rect key="frame" x="67" y="328" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="egU-dU-GhS"/>
-                                    <constraint firstAttribute="height" constant="120" id="mop-G5-bnI"/>
+                                    <constraint firstAttribute="width" constant="240" id="egU-dU-GhS"/>
+                                    <constraint firstAttribute="height" constant="240" id="mop-G5-bnI"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-N1-b1S" customClass="SwiftyInnerShadowView" customModule="SwiftyShadow">
-                                <rect key="frame" x="127" y="76" width="120" height="120"/>
+                                <rect key="frame" x="67" y="76" width="240" height="240"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftyShadow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYg-3A-pB8">
-                                        <rect key="frame" x="14.5" y="46" width="91" height="28"/>
+                                        <rect key="frame" x="74.5" y="106" width="91" height="28"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                         <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -95,9 +95,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.14117647059999999" green="0.62352941179999999" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="81u-Gj-XHt"/>
+                                    <constraint firstAttribute="height" constant="240" id="81u-Gj-XHt"/>
                                     <constraint firstItem="ZYg-3A-pB8" firstAttribute="centerY" secondItem="pKp-N1-b1S" secondAttribute="centerY" id="9wY-ts-FsX"/>
-                                    <constraint firstAttribute="width" constant="120" id="Cvc-AC-s6B"/>
+                                    <constraint firstAttribute="width" constant="240" id="Cvc-AC-s6B"/>
                                     <constraint firstItem="ZYg-3A-pB8" firstAttribute="centerX" secondItem="pKp-N1-b1S" secondAttribute="centerX" id="SYf-O1-hV2"/>
                                 </constraints>
                             </view>
@@ -132,10 +132,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar2" translatesAutoresizingMaskIntoConstraints="NO" id="Hcd-jk-PrF">
-                                <rect key="frame" x="127" y="273.5" width="120" height="120"/>
+                                <rect key="frame" x="67" y="213.5" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="qfR-Qh-aDK"/>
-                                    <constraint firstAttribute="height" constant="120" id="tS5-G9-uXw"/>
+                                    <constraint firstAttribute="width" constant="240" id="qfR-Qh-aDK"/>
+                                    <constraint firstAttribute="height" constant="240" id="tS5-G9-uXw"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -166,10 +166,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar2" translatesAutoresizingMaskIntoConstraints="NO" id="spE-bk-pX3">
-                                <rect key="frame" x="127" y="273.5" width="120" height="120"/>
+                                <rect key="frame" x="67" y="213.5" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="PUR-8o-C5a"/>
-                                    <constraint firstAttribute="height" constant="120" id="yZI-Rg-Rzz"/>
+                                    <constraint firstAttribute="width" constant="240" id="PUR-8o-C5a"/>
+                                    <constraint firstAttribute="height" constant="240" id="yZI-Rg-Rzz"/>
                                 </constraints>
                             </imageView>
                         </subviews>
