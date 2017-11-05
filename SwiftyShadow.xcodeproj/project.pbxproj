@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F4640E01F24F70A00B1FDFA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4640DF1F24F70A00B1FDFA /* UIView.swift */; };
 		0F826A3D1F2112CE0088917B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F826A3C1F2112CE0088917B /* AppDelegate.swift */; };
-		0F826A3F1F2112CE0088917B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F826A3E1F2112CE0088917B /* ViewController.swift */; };
 		0F826A421F2112CE0088917B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F826A401F2112CE0088917B /* Main.storyboard */; };
 		0F826A441F2112CE0088917B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F826A431F2112CE0088917B /* Assets.xcassets */; };
 		0F826A471F2112CE0088917B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F826A451F2112CE0088917B /* LaunchScreen.storyboard */; };
+		74E0B8CB1FADF87A000F8879 /* InnerShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0B8CA1FADF87A000F8879 /* InnerShadowViewController.swift */; };
+		74E0B8CD1FADF8A7000F8879 /* OutterShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0B8CC1FADF8A7000F8879 /* OutterShadowViewController.swift */; };
+		74E0B8CF1FADF9A3000F8879 /* EllipticalShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0B8CE1FADF9A3000F8879 /* EllipticalShadowViewController.swift */; };
 		OBJ_23 /* SwiftyInnerShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* SwiftyInnerShadowLayer.swift */; };
 		OBJ_24 /* SwiftyInnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftyInnerShadowView.swift */; };
 /* End PBXBuildFile section */
@@ -31,13 +33,13 @@
 		0F4640DF1F24F70A00B1FDFA /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0F826A3A1F2112CE0088917B /* SwiftyShadowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyShadowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F826A3C1F2112CE0088917B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F826A3E1F2112CE0088917B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F826A411F2112CE0088917B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F826A431F2112CE0088917B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F826A461F2112CE0088917B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F826A481F2112CE0088917B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		OBJ_12 /* Screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshot; sourceTree = SOURCE_ROOT; };
-		OBJ_15 /* Tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tutorial; sourceTree = SOURCE_ROOT; };
+		74E0B8CA1FADF87A000F8879 /* InnerShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerShadowViewController.swift; sourceTree = "<group>"; };
+		74E0B8CC1FADF8A7000F8879 /* OutterShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutterShadowViewController.swift; sourceTree = "<group>"; };
+		74E0B8CE1FADF9A3000F8879 /* EllipticalShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalShadowViewController.swift; sourceTree = "<group>"; };
 		OBJ_17 /* SwiftyShadow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyShadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* SwiftyInnerShadowLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyInnerShadowLayer.swift; sourceTree = "<group>"; };
@@ -66,11 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				0F826A3C1F2112CE0088917B /* AppDelegate.swift */,
-				0F826A3E1F2112CE0088917B /* ViewController.swift */,
 				0F826A401F2112CE0088917B /* Main.storyboard */,
 				0F826A431F2112CE0088917B /* Assets.xcassets */,
 				0F826A451F2112CE0088917B /* LaunchScreen.storyboard */,
 				0F826A481F2112CE0088917B /* Info.plist */,
+				74E0B8CA1FADF87A000F8879 /* InnerShadowViewController.swift */,
+				74E0B8CC1FADF8A7000F8879 /* OutterShadowViewController.swift */,
+				74E0B8CE1FADF9A3000F8879 /* EllipticalShadowViewController.swift */,
 			);
 			path = SwiftyShadowDemo;
 			sourceTree = "<group>";
@@ -97,8 +101,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
-				OBJ_12 /* Screenshot */,
-				OBJ_15 /* Tutorial */,
 				0F826A3B1F2112CE0088917B /* SwiftyShadowDemo */,
 				OBJ_16 /* Products */,
 			);
@@ -206,7 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F826A3F1F2112CE0088917B /* ViewController.swift in Sources */,
+				74E0B8CF1FADF9A3000F8879 /* EllipticalShadowViewController.swift in Sources */,
+				74E0B8CB1FADF87A000F8879 /* InnerShadowViewController.swift in Sources */,
+				74E0B8CD1FADF8A7000F8879 /* OutterShadowViewController.swift in Sources */,
 				0F826A3D1F2112CE0088917B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
