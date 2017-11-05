@@ -64,7 +64,7 @@
             </objects>
             <point key="canvasLocation" x="-261.60000000000002" y="123.68815592203899"/>
         </scene>
-        <!--Inner Shadow View Controller-->
+        <!--Inner Shadow-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="InnerShadowViewController" customModule="SwiftyShadowDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -110,6 +110,7 @@
                             <constraint firstItem="Nj5-FF-8hX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gVb-cr-rCO"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Inner Shadow" id="R43-0m-h2u"/>
                     <connections>
                         <outlet property="imageInnerView" destination="Nj5-FF-8hX" id="oXF-y2-OqQ"/>
                         <outlet property="testView" destination="pKp-N1-b1S" id="inp-Fj-1dI"/>
@@ -119,7 +120,7 @@
             </objects>
             <point key="canvasLocation" x="607" y="-654"/>
         </scene>
-        <!--Outter Shadow View Controller-->
+        <!--Outer Shadow-->
         <scene sceneID="ajN-73-PrE">
             <objects>
                 <viewController id="L7l-1u-Lg6" customClass="OutterShadowViewController" customModule="SwiftyShadowDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -145,6 +146,7 @@
                             <constraint firstItem="Hcd-jk-PrF" firstAttribute="centerY" secondItem="sdG-td-RGX" secondAttribute="centerY" id="oyW-uW-I3J"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Outer Shadow" id="rAX-6R-QVj"/>
                     <connections>
                         <outlet property="imageView" destination="Hcd-jk-PrF" id="6IM-iF-GYi"/>
                     </connections>
@@ -153,7 +155,7 @@
             </objects>
             <point key="canvasLocation" x="606" y="68"/>
         </scene>
-        <!--Elliptical Shadow View Controller-->
+        <!--Elliptical Shadow-->
         <scene sceneID="yBk-MP-NVS">
             <objects>
                 <viewController id="fkl-fu-Y90" customClass="EllipticalShadowViewController" customModule="SwiftyShadowDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -179,6 +181,7 @@
                             <constraint firstItem="spE-bk-pX3" firstAttribute="centerX" secondItem="8vt-Dc-B8a" secondAttribute="centerX" id="udq-cl-tzn"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Elliptical Shadow" id="GbC-aV-kfB"/>
                     <connections>
                         <outlet property="imageView" destination="spE-bk-pX3" id="ty5-xR-JiK"/>
                     </connections>
