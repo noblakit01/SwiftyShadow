@@ -9,7 +9,13 @@ Helper Libraries to generate wonderful shadow in Swift iOS.
 <table>
   <tr>
     <th>
-      <img src="Screenshot/screenshot1.png" width="220"/>
+      <img src="Screenshot/inner_shadow.png" width="220"/>
+    </th>
+    <th>
+      <img src="Screenshot/outer_shadow.png" width="220"/>
+    </th>
+    <th>
+      <img src="Screenshot/elliptical_shadow.png" width="220"/>
     </th>
   </tr>
 </table>
