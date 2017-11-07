@@ -1,6 +1,7 @@
 # TODO
 
 - [x] Add convenience function in UIView for Inner Shadow.
-- [ ] Add elliptical bottom shadow in UIView.
+- [x] Add elliptical bottom shadow in UIView.
+- [ ] Create shadow properties system.
 
 
