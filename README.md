@@ -37,7 +37,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'SwiftyShadow', '~> 1.5.0'
+pod 'SwiftyShadow', '~> 1.6.0'
 ```
 
 Then, run the following command:
@@ -94,6 +94,17 @@ imageView.layer.shadowOffset = CGSize.zero
 but shadow doesn't work if view has `clipsToBounds = true`, so just call `generateOuterShadow` function
 ```
 imageView.generateOuterShadow()
+```
+
+### Elliptical Shadow
+You need set up shadow properties first, then call `generateEllipticalShadow`
+```
+imageView.layer.shadowRadius = 20
+imageView.layer.shadowOpacity = 0.8
+imageView.layer.shadowColor = UIColor.black.cgColor
+imageView.layer.shadowOffset = CGSize.zero
+        
+imageView.generateEllipticalShadow()
 ```
 
 ## TODO
