@@ -52,7 +52,7 @@ public class SwiftyInnerShadowLayer: CAShapeLayer {
         masksToBounds = true
         shouldRasterize = true
         
-        fillRule = kCAFillRuleEvenOdd
+        fillRule = CAShapeLayerFillRule.evenOdd
         borderColor = UIColor.clear.cgColor
     }
     
