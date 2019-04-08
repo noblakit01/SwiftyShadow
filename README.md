@@ -24,7 +24,7 @@ Helper Libraries to generate wonderful shadow in Swift iOS.
 
 * iOS 8.0+
 * Xcode 8+
-* Swift 4
+* Swift 4.2
 
 ## Installation
 
@@ -37,7 +37,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'SwiftyShadow', '~> 1.6.0'
+pod 'SwiftyShadow', '~> 1.7.0'
 ```
 
 Then, run the following command:

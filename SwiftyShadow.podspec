@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftyShadow"
-  s.version      = "1.6.0"
+  s.version      = "1.7.0"
   s.summary      = "Shadow for UIView in Swift iOS"
   s.description  = <<-DESC
                   Simple and highly shadow for UIView in Swift iOS
