@@ -17,7 +17,7 @@ extension UIView {
         view.layer.shadowRadius = layer.shadowRadius
         view.layer.shadowOpacity = layer.shadowOpacity
         view.layer.shadowColor = layer.shadowColor
-        view.layer.shadowOffset = CGSize.zero
+        view.layer.shadowOffset = layer.shadowOffset
         view.clipsToBounds = false
         view.backgroundColor = .white
         
@@ -39,7 +39,7 @@ extension UIView {
         view.shadowLayer.shadowRadius = layer.shadowRadius
         view.shadowLayer.shadowOpacity = layer.shadowOpacity
         view.shadowLayer.shadowColor = layer.shadowColor
-        view.shadowLayer.shadowOffset = CGSize.zero
+        view.shadowLayer.shadowOffset = layer.shadowOffset
         view.clipsToBounds = false
         view.backgroundColor = .clear
         
@@ -61,7 +61,7 @@ extension UIView {
         view.layer.shadowRadius = layer.shadowRadius
         view.layer.shadowOpacity = layer.shadowOpacity
         view.layer.shadowColor = layer.shadowColor
-        view.layer.shadowOffset = CGSize.zero
+        view.layer.shadowOffset = layer.shadowOffset
         view.clipsToBounds = false
         view.backgroundColor = .white
         
